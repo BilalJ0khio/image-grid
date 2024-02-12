@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .grid-container {
+      display: grid;
+      gap: 0.5rem;
+      max-width: 100%;
+      padding: 0.5rem;
+
+      grid-auto-flow: dense;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-auto-rows: 200px;
+
+      align-items: stretch;
+
+      background-color: rgba(0, 0, 0, 0.663);
+    }
+    li {
+      list-style: none;
+      max-width: 100%;
+      /* height: 100%; */
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+
+      border: 1px solid whitesmoke;
+    }
+
+    .wide {
+      grid-column: span 2;
+    }
+    .tall {
+      grid-row: span 2;
+    }
+  </style>
+  <body>
+    <ul class="grid-container">
+      <li class="tall">
+        <img
+          src="../image-gallery-project/clement-proust-8I-qo9ePRDo-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="">
+        <img
+          src="../image-gallery-project/danny-greenberg-tLYF5pH0Weo-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="wide">
+        <img
+          src="../image-gallery-project/dmitry-kropachev-yh0vs-zs35w-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="">
+        <img
+          src="../image-gallery-project/ethan-smith-w2neeDixhbs-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="wide tall">
+        <img
+          src="../image-gallery-project/henry-han-ynmgNiKv3w8-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="wide">
+        <img
+          src="../image-gallery-project/illia-horokhovsky-1aWfiZOq0zg-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/joanna-stolowicz-oq-Qiu2Yys0-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/liam-hans-QtDd74qm7hU-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="wide">
+        <img
+          src="../image-gallery-project/lucas-chizzali-rpFVf1E7ikk-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/mykyta-kravcenko-MCRoyvsrtAg-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/mauricio-artieda-zm1bVyY_Jjc-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="tall">
+        <img
+          src="../image-gallery-project/neom-4q87Z96NBYg-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="wide">
+        <img
+          src="../image-gallery-project/neom-_TFgiFZyH6M-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/neom-Kcna6XWDY7w-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="tall">
+        <img
+          src="../image-gallery-project/neom-llB7NfKnS8A-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/pawel-czerwinski-rc9ZkXFNscI-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../image-gallery-project/thimo-van-leeuwen-6pVMAjyGCPw-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="wide">
+        <img
+          src="../image-gallery-project/uliana-soboleva-ksB0iQrlyDE-unsplash.jpg"
+          alt=""
+        />
+      </li>
+      <li class="">
+        <img
+          src="../image-gallery-project/yue-wu-9744hAz_9LM-unsplash.jpg"
+          alt=""
+        />
+      </li>
+    </ul>
+  </body>
+</html>
